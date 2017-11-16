@@ -1,0 +1,119 @@
+.burger {
+    width: 10%;
+    display: block;
+    margin: 20 auto;
+    cursor: pointer;
+}
+
+.burger:focus;
+
+.event {
+    color: brown;
+}
+
+.title, .stage {
+    color: darkblue;
+}
+
+.logo1 {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.today {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.hide{
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#drop2 {
+    color: orange;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 100px;
+    display: block;
+    text-decoration: none;
+}
+.dropdown:focus .dropdown-content:focus {
+    display: block;
+}
+
+.show {display: block;}
+
+.calendar {
+     width: 90%;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+.men1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.men1 li {
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 2px;
+    margin-top: 2px;
+    width: 60%;
+    text-align: center;
+}
+
+.men1 a {
+    text-decoration: none;
+}
+.men2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.men2 a{
+    text-decoration: none;
+    border: 2px solid green;
+    padding: 2px;
+    margin-top: 2px;
+    width: 60%;
+    text-align: center;
+}
+@font-face {
+    font-family: myfont;
+    src: url(avenir.ttc);
+}
+a, .title, .stage, .date, .excerpt, .content, .price, .presale, .facebook, .read-more {
+    font-family: myfont;
+}
+.event {
+    border: 5px solid green;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}

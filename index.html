@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huset Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logoapp1.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+    <a href="index.html"><img class="logo1" src="logohuset.png" alt="logo"></a>
+
+
+<div class="dropdown">
+<img id="btn1" class="calendar" src="calendar.png" alt="calendar">
+  <div id="drop1" class="hide">
+ <img class="calendar" src="calendarwidget.png" alt="calendar widget">
+  </div>
+    </div>
+
+
+<div class="dropdown">
+<img id="btn2" class="calendar" src="genre.png" alt="genre">
+ <div id="drop2" class="hide">
+  <ul id="tagmenu" class="men1">
+     <template id="linkTemplate">
+      <li><a href="#">Horror</a></li>
+      </template>
+
+      </ul>
+    </div>
+
+
+      </div>
+
+
+  <div class="dropdown">
+<img id="btn3" class="calendar" src="price.png" alt="price">
+  <div id="drop3" class="hide">
+  <div class="men2">
+<a href="#">Payment</a>
+ <a href="#">Free</a>
+ <a href="#">All</a>
+    </div>
+
+    </div>
+ </div>
+
+
+    <img class="today" src="husettoday.png" alt="today at huset">
+
+
+ <section id="list">
+
+
+    </section>
+<body>
+
+
+
+    <template id="eventTemplate">
+        <article class="event">
+        <h1 class="title"></h1>
+        <h2 class="stage"></h2>
+        <h2 class="date"></h2>
+
+    <div class="content"></div>
+        <img class="calendar" src="" alt>
+        <p class="price"></p>
+    <p class="presale"></p>
+    <a href="" class="facebook"></a>
+           <p> <a class="read-more" href="event.html?id=1800">Read More</a></p>
+          </article>
+    </template>
+
+    <script src ="main.js"></script>
+</body>
+</html>
